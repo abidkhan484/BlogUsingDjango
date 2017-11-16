@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{% static 'css/app.css' %}" rel="stylesheet">
+    <title>BlogPost</title>
+</head>
+<body>
+
+<h1>Our fantastic Blog</h1>
+<hr>
+{% block content %}
+{% endblock %}
+</body>
+</html>
